@@ -1,3 +1,5 @@
+# demo/echoserver/Makefile - 构建echo服务器和客户端
+
 # 编译器设置
 CXX := g++
 CXXFLAGS := -g -Wall -Wextra -O2 -std=c++11
