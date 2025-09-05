@@ -1,4 +1,4 @@
-# 构建所有示例程序
+# demo/Makefile - 构建所有示例程序
 .PHONY: all echoserver bankserver clean
 
 # 默认目标
