@@ -1,3 +1,4 @@
+# 顶层Makefile - 协调整个项目的构建
 .PHONY: all lib demos clean install
 
 # 默认目标
@@ -17,7 +18,7 @@ clean:
 	$(MAKE) -C demo clean
 	rm -rf lib include
 
-# 安装头文件和库到系统目录
+# 安装头文件和库到系统目录（可选）
 install: lib
 	install -d /usr/local/include/netlite
 	install src/*.h /usr/local/include/netlite/
